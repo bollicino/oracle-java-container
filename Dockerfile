@@ -4,7 +4,7 @@ MAINTAINER Alessandro Poli <alessandro.poli@mondora.com>
 # Configuration variables
 ENV JAVA_VERSION 8u121
 ENV BUILD b13
-ENV JAVA_RPM jre-$JAVA_VERSION-linux-x64.rpm
+ENV JAVA_RPM jdk-$JAVA_VERSION-linux-x64.rpm
 ENV JAVA_RPM_URL http://download.oracle.com/otn-pub/java/jdk/$JAVA_VERSION-$BUILD/e9e7ea248e2c4826b92b3f075a80e441/$JAVA_RPM
 
 # Install Oracle JRE
